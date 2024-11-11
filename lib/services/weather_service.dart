@@ -15,7 +15,6 @@ class WeatherService {
       http.Response response = await http.get(url);
       // convert data format to json and sava it in "data"
       Map<String, dynamic> data = jsonDecode(response.body);
-
       weather = WeatherModel.fromJson(data);
     } catch (e) {
       print(e);

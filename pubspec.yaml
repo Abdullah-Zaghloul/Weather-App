@@ -9,26 +9,23 @@ environment:
   sdk: ^3.5.3
 
 dependencies:
-  provider: ^6.1.2
-  http: ^1.2.1
-
+  cupertino_icons: ^1.0.8
   flutter:
     sdk: flutter
-
-  cupertino_icons: ^1.0.8
+  flutter_bloc: ^8.1.6
+  http: ^1.2.1
 
 dev_dependencies:
-  flutter_test:
-    sdk: flutter
 
   flutter_lints: ^4.0.0
+  flutter_test:
+    sdk: flutter
 
 flutter:
   uses-material-design: true
 
   assets:
     - assets/images/
-
   # fonts:
   #   - family: Schyler
   #     fonts:
